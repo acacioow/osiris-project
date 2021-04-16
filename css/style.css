@@ -1,0 +1,155 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  outline: none; }
+
+body {
+  font-family: 'Ramabhadara', sans-serif; }
+
+input {
+  padding: 10px;
+  border: 1px solid #000;
+  color: #000;
+  margin-top: -1px;
+  text-align: center; }
+
+select {
+  padding: 10px;
+  border: 1px solid #000;
+  color: #000;
+  text-align: center;
+  margin-top: -1px; }
+
+.openingWrapper {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 265px; }
+
+.logo {
+  width: 100px;
+  margin-bottom: 15px; }
+
+.opening {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  padding: 45px;
+  border: 1px solid #000;
+  background: #fff;
+  z-index: 1; }
+
+.sub-title {
+  display: flex;
+  justify-content: space-evenly;
+  font-size: 13px;
+  font-style: italic; }
+
+.username-in {
+  text-align: center;
+  border: 1px solid #000; }
+
+.password-in {
+  text-align: center;
+  border: 1px solid #000;
+  margin-top: -1px; }
+
+.birth-in {
+  width: 100%;
+  z-index: 1; }
+
+.birth-label {
+  position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  left: 36px;
+  width: 185px;
+  height: 40px;
+  color: #fff;
+  background: #000;
+  border-radius: 0 0 10px 0;
+  transition: 0.5s; }
+  .hover-birth .birth-label {
+    transform: translateX(190px); }
+
+.birthWrapper {
+  display: flex;
+  align-items: center; }
+
+.confirm-button {
+  padding: 10px;
+  border: 0;
+  background: #000;
+  color: #fff;
+  border: 1px solid #000;
+  border-radius: 0 0 10px 0;
+  font-weight: 600;
+  transition: 0.5s; }
+  .confirm-button:hover {
+    background: #fff;
+    color: #000; }
+
+.infoWrapper {
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%, -25px);
+  z-index: 2; }
+
+.info-holder {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  padding: 35px 30px;
+  font-size: 14px;
+  background: #000;
+  color: #fff;
+  transform: translateY(-100%);
+  transition: 0.5s; }
+  .info-is-open .info-holder {
+    transform: translateY(0); }
+
+.bt-info {
+  width: 50px;
+  height: 50px;
+  font-family: 'Ramabhadara';
+  font-size: 40px;
+  font-weight: 900;
+  background: #000;
+  color: #fff;
+  border: 1px solid #fff;
+  border-radius: 50%;
+  transition: 0.5s; }
+  .bt-info:hover {
+    color: #000;
+    background: #fff;
+    border: 1px solid #000; }
+
+.underage-block {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  margin-top: 20px;
+  font-size: 12px; }
+
+.usernameWrapper {
+  display: flex;
+  flex-flow: column;
+  margin-top: 15px; }
+
+.register-shortcut {
+  position: absolute;
+  font-size: 12px;
+  color: #000;
+  text-decoration: none;
+  bottom: 0;
+  transform: translateY(55px);
+  transition: 0.5s; }
+  .info-is-open .register-shortcut {
+    transform: translateY(35px); }
+
+/*# sourceMappingURL=style.css.map */
